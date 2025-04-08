@@ -23,10 +23,23 @@ public class Friend
     }
 
     
-    public String getName(){return name;}
-    public String getPhone(){return phone;}
-    {
-        // indsæt din egen kode her
-        
+    public String getName(){
+        return name;
+    }
+    
+    public String getPhone(){
+        return phone;
+    }
+    
+    public void updateFriend (String name, String phone){
+        this.name = name;
+        this.phone = phone;
+    }
+    
+    public String showInfo (){
+        return "Friend(Name"+ name + "Phone "+ phone +")";
     }
 }
+    
+        
+    

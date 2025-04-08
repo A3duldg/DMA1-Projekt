@@ -10,16 +10,26 @@ package Container;
 public class LP
 {
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
-    private int x;
+    public String artist;
+    public String title;
 
     /**
      * Konstruktør for objekter af klassen LP
      */
-    public LP()
+    public LP(String artist, String title)
     {
-        // initialiser instansvariable
-        x = 0;
+        this.artist = artist;
+        this.title = title;
     }
+    
+    public String getArtist(){
+        return artist;
+    }
+    public String getTitle(){
+        return title;
+    }
+        
+    
 
     /**
      * Et eksempel på en metode - erstat denne kommentar med din egen
@@ -27,9 +37,5 @@ public class LP
      * @param  y  eksempel på en parameter til en metode
      * @return    summen af x og y 
      */
-    public int sampleMethod(int y)
-    {
-        // indsæt din egen kode her
-        return x + y;
-    }
 }
+
