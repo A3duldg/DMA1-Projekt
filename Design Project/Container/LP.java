@@ -10,16 +10,23 @@ package Container;
 public class LP
 {
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
-    private int x;
+    public String artist;
+    public String title;
 
     /**
      * Konstruktør for objekter af klassen LP
      */
-    public LP()
+    public LP(String artist, String title)
     {
-        // initialiser instansvariable
-        x = 0;
+        this.artist = artist;
+        this.title = title;
     }
+    
+    public String getArtist(){
+        return artist;
+    }
+        
+    
 
     /**
      * Et eksempel på en metode - erstat denne kommentar med din egen
