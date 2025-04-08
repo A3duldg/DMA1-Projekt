@@ -45,15 +45,8 @@ public class Friend
     public String getCity(){
         return city;
     }
-    public void updateFriend (String name, String phone){
-        this.name = name;
-        this.phone = phone;
-    }
-    
-    public String showInfo (){
-        return "Friend(Name"+ name + "Phone "+ phone +")";
-    }
 }
+
     
         
     
