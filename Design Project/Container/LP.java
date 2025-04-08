@@ -13,7 +13,7 @@ public class LP
 
     private String artist;
     private String title;
-    private int barCode;
+    private int barcode;
 
 
     /**
@@ -23,7 +23,7 @@ public class LP
     {
         this.artist = artist;
         this.title = title;
-        this.barCode = barCode;
+        this.barcode = barcode;
 
 
     }
@@ -36,8 +36,8 @@ public class LP
         return title;
     }
     
-    public int getBarCode(){
-        return barCode;
+    public int getBarcode(){
+        return barcode;
     }
     
 
