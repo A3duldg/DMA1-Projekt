@@ -1,10 +1,14 @@
 #BlueJ class context
 comment0.target=Friend
 comment0.text=\r\n\ Lav\ en\ beskrivelse\ af\ klassen\ Friend\ her.\r\n\ \r\n\ @author\ (dit\ navn\ her)\r\n\ @version\ (versions\ nummer\ eller\ dato\ her)\r\n
-comment1.params=
-comment1.target=Friend()
-comment1.text=\r\n\ Konstrukt\u00F8r\ for\ objekter\ af\ klassen\ Friend\r\n
-comment2.params=y
-comment2.target=int\ sampleMethod(int)
-comment2.text=\r\n\ Et\ eksempel\ p\u00E5\ en\ metode\ -\ erstat\ denne\ kommentar\ med\ din\ egen\r\n\ \r\n\ @param\ \ y\ \ eksempel\ p\u00E5\ en\ parameter\ til\ en\ metode\r\n\ @return\ \ \ \ summen\ af\ x\ og\ y\ \r\n
-numComments=3
+comment1.params=name\ phone
+comment1.target=Friend(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.lang.String\ getPhone()
+comment4.params=name\ phone
+comment4.target=void\ updateFriend(java.lang.String,\ java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ showInfo()
+numComments=6
