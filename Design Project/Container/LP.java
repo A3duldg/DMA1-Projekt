@@ -25,6 +25,9 @@ public class LP
     public String getArtist(){
         return artist;
     }
+    public String getTitle(){
+        return title;
+    }
         
     
 
@@ -34,9 +37,5 @@ public class LP
      * @param  y  eksempel på en parameter til en metode
      * @return    summen af x og y 
      */
-    public int sampleMethod(int y)
-    {
-        // indsæt din egen kode her
-        return x + y;
-    }
 }
+
