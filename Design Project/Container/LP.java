@@ -10,8 +10,8 @@ package Container;
 public class LP
 {
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
-    public String artist;
-    public String title;
+    private String artist;
+    private String title;
 
     /**
      * Konstruktør for objekter af klassen LP

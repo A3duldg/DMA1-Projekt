@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=LP
-comment0.text=\r\n\ Lav\ en\ beskrivelse\ af\ klassen\ LP\ her.\r\n\ \r\n\ @author\ (dit\ navn\ her)\r\n\ @version\ (versions\ nummer\ eller\ dato\ her)\r\n
+comment0.text=\n\ Lav\ en\ beskrivelse\ af\ klassen\ LP\ her.\n\ \n\ @author\ (dit\ navn\ her)\n\ @version\ (versions\ nummer\ eller\ dato\ her)\n
 comment1.params=artist\ title
 comment1.target=LP(java.lang.String,\ java.lang.String)
-comment1.text=\r\n\ Konstrukt\u00F8r\ for\ objekter\ af\ klassen\ LP\r\n
+comment1.text=\n\ Konstrukt\u00F8r\ for\ objekter\ af\ klassen\ LP\n
 comment2.params=
 comment2.target=java.lang.String\ getArtist()
 comment3.params=
