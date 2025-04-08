@@ -6,7 +6,7 @@ package Controller;
  * 
  * @author (dit navn her)
  * @version (versions nummer eller dato her)
- */
+ *//////
 public class LPCtrl
 {
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
