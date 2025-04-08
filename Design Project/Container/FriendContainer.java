@@ -11,6 +11,7 @@ public class FriendContainer
 {
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
     private int x;
+    private name;
 
     /**
      * Konstruktør for objekter af klassen FriendContainer
