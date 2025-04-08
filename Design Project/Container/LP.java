@@ -10,6 +10,7 @@ package Container;
 public class LP
 {
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
+
     public String artist;
     public String title;
     public int serialNumber;
