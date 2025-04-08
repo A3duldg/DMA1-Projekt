@@ -11,9 +11,9 @@ public class LP
 {
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
 
-    public String artist;
-    public String title;
-    public int serialNumber;
+    private String artist;
+    private String title;
+    private int serialNumber;
 
     /**
      * Konstruktør for objekter af klassen LP
