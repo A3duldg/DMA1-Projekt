@@ -9,5 +9,5 @@ comment2.target=java.lang.String\ getArtist()
 comment3.params=
 comment3.target=java.lang.String\ getTitle()
 comment4.params=
-comment4.target=int\ getSerialNumber()
+comment4.target=int\ getBarCode()
 numComments=5
