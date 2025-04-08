@@ -15,6 +15,7 @@ public class LP
     private String title;
     private int barCode;
 
+
     /**
      * Konstruktør for objekter af klassen LP
      */
@@ -23,6 +24,8 @@ public class LP
         this.artist = artist;
         this.title = title;
         this.barCode = barCode;
+
+
     }
     
     public String getArtist(){
