@@ -13,7 +13,7 @@ public class LP
 
     private String artist;
     private String title;
-    private int serialNumber;
+    private int barcode;
 
     /**
      * Konstruktør for objekter af klassen LP
@@ -22,7 +22,7 @@ public class LP
     {
         this.artist = artist;
         this.title = title;
-        this.serialNumber = serialNumber;
+        this.barcode = barcode;
     }
     
     public String getArtist(){
@@ -33,8 +33,8 @@ public class LP
         return title;
     }
     
-    public int getSerialNumber(){
-        return serialNumber;
+    public int getBarcode(){
+        return barcode;
     }
     
 
