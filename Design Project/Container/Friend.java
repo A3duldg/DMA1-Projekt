@@ -9,25 +9,22 @@ package Container;
  */
 public class Friend
 {
-    // instansvariabler - erstat eksemplet herunder med dine egne variabler
-    private int x;
+    // har sætter vi parrametrene til at finde vores friends
+    private String name;
+    private String phone;
 
-    /**
-     * Konstruktør for objekter af klassen Friend
-     */
-    public Friend()
+    // * Konstruktør for objekter af klassen Friend
+    
+    public Friend(String name, String phone)
     {
         // initialiser instansvariable
-        x = 0;
+        this.name = name;
+        this.phone = phone
     }
 
-    /**
-     * Et eksempel på en metode - erstat denne kommentar med din egen
-     * 
-     * @param  y  eksempel på en parameter til en metode
-     * @return    summen af x og y 
-     */
-    public int sampleMethod(int y)
+    
+    public String getName()return name;
+    public String getPhone()return phone;
     {
         // indsæt din egen kode her
         return x + y;
