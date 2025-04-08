@@ -11,9 +11,6 @@ public class Friend
 {
     // har sætter vi parrametrene til at finde vores friends
     private String name;
-    
-    
-    
     private String phone;
 
     // * Konstruktør for objekter af klassen Friend
