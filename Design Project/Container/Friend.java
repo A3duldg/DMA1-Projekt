@@ -19,14 +19,14 @@ public class Friend
     {
         // initialiser instansvariable
         this.name = name;
-        this.phone = phone
+        this.phone = phone;
     }
 
     
-    public String getName()return name;
-    public String getPhone()return phone;
+    public String getName(){return name;}
+    public String getPhone(){return phone;}
     {
         // indsæt din egen kode her
-        return x + y;
+        
     }
 }
