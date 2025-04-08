@@ -8,4 +8,6 @@ comment2.params=
 comment2.target=java.lang.String\ getArtist()
 comment3.params=
 comment3.target=java.lang.String\ getTitle()
-numComments=4
+comment4.params=
+comment4.target=int\ getSerialNumber()
+numComments=5

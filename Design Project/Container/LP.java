@@ -12,6 +12,7 @@ public class LP
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
     public String artist;
     public String title;
+    public int serialNumber;
 
     /**
      * Konstruktør for objekter af klassen LP
@@ -20,15 +21,20 @@ public class LP
     {
         this.artist = artist;
         this.title = title;
+        this.serialNumber = serialNumber;
     }
     
     public String getArtist(){
         return artist;
     }
+    
     public String getTitle(){
         return title;
     }
-        
+    
+    public int getSerialNumber(){
+        return serialNumber;
+    }
     
 
     /**
