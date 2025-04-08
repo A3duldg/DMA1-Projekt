@@ -10,26 +10,34 @@ package Container;
 public class Loan
 {
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
-    private int x;
+    private int loanNumber;
+    private String borrowDate;
+    private String returnDate;
+    private boolean status;
+    
 
     /**
      * Konstruktør for objekter af klassen Loan
      */
-    public Loan()
+    public Loan(int loanNumber, String borrowDate, String returnDate, String status)
     {
-        // initialiser instansvariable
-        x = 0;
+        this.loanNumber = loanNumber;
+        this.borrowDate = borrowDate;
+        this.returnDate = returnDate;
+        
+        
+        
     }
-
-    /**
-     * Et eksempel på en metode - erstat denne kommentar med din egen
-     * 
-     * @param  y  eksempel på en parameter til en metode
-     * @return    summen af x og y 
-     */
-    public int sampleMethod(int y)
-    {
-        // indsæt din egen kode her
-        return x + y;
+    public int getLoanNumber(){
+        return loanNumber;
     }
+    
+    public String getBorrowDate(){
+        return borrowDate;
+    }
+    
+    public String getReturnDate(){
+        return returnDate;
+    }
+    
 }
