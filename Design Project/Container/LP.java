@@ -26,6 +26,7 @@ public class LP
         this.artist = artist;
         this.title = title;
         this.barcode = barcode;
+        this.publicationDate = publicationDate;
 
 
     }
