@@ -1,4 +1,5 @@
 package Container;
+import java.util.ArrayList;
 
 
 /**
@@ -7,18 +8,19 @@ package Container;
  * @author (dit navn her)
  * @version (versions nummer eller dato her)
  */
-public class FriendContainer
+public class FriendModel
 {
+    private ArrayList<Friend> friends;
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
-    private int x;
+    
 
     /**
      * Konstruktør for objekter af klassen FriendContainer
      */
-    public FriendContainer()
+    public FriendModel()
     {
         // initialiser instansvariable
-        x = 0;
+        friends = new ArrayList<>();
     }
 
     /**
@@ -27,9 +29,5 @@ public class FriendContainer
      * @param  y  eksempel på en parameter til en metode
      * @return    summen af x og y 
      */
-    public int sampleMethod(int y)
-    {
-        // indsæt din egen kode her
-        return x + y;
-    }
+     
 }
