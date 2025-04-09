@@ -13,8 +13,6 @@ public class LP
 
     private String artist;
     private String title;
-    
-    
     private int barcode;
 
 
