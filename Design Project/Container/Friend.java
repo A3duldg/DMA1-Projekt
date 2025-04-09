@@ -16,7 +16,6 @@ public class Friend
     private int postalCode;
     private String city;
     
-
     // * Konstruktør for objekter af klassen Friend
     
     public Friend(String name, String phone, String address, int postalCode, String city)
