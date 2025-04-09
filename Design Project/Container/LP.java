@@ -14,6 +14,9 @@ public class LP
     private String artist;
     private String title;
     private int barcode;
+    private String publicationDate;
+    
+
 
     /**
      * Konstruktør for objekter af klassen LP
@@ -23,6 +26,9 @@ public class LP
         this.artist = artist;
         this.title = title;
         this.barcode = barcode;
+        this.publicationDate = publicationDate;
+
+
     }
     
     public String getArtist(){
@@ -37,6 +43,9 @@ public class LP
         return barcode;
     }
     
+    public String publicationDate() {
+        return publicationDate;
+    }
 
     /**
      * Et eksempel på en metode - erstat denne kommentar med din egen

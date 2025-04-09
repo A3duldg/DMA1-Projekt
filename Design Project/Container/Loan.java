@@ -24,9 +24,6 @@ public class Loan
         this.loanNumber = loanNumber;
         this.borrowDate = borrowDate;
         this.returnDate = returnDate;
-        
-        
-        
     }
     public int getLoanNumber(){
         return loanNumber;
@@ -38,6 +35,12 @@ public class Loan
     
     public String getReturnDate(){
         return returnDate;
+    }
+    public void createloan(int loanNumber, String borrowDate){
+        
+    }
+    public String addFriendByPhone(String phone){
+        return phone;
     }
     
 }
