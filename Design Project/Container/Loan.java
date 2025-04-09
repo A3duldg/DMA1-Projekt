@@ -36,5 +36,11 @@ public class Loan
     public String getReturnDate(){
         return returnDate;
     }
+    public void createloan(int loanNumber, String borrowDate){
+        
+    }
+    public String addFriendByPhone(String phone){
+        return phone;
+    }
     
 }
