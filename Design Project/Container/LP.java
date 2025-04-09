@@ -14,6 +14,8 @@ public class LP
     private String artist;
     private String title;
     private int barcode;
+    private String publicationDate;
+    
 
 
     /**
@@ -24,6 +26,7 @@ public class LP
         this.artist = artist;
         this.title = title;
         this.barcode = barcode;
+        this.publicationDate = publicationDate;
 
 
     }
@@ -40,6 +43,9 @@ public class LP
         return barcode;
     }
     
+    public String publicationDate() {
+        return publicationDate;
+    }
 
     /**
      * Et eksempel på en metode - erstat denne kommentar med din egen
