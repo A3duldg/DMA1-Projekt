@@ -24,9 +24,6 @@ public class Loan
         this.loanNumber = loanNumber;
         this.borrowDate = borrowDate;
         this.returnDate = returnDate;
-        
-        
-        
     }
     public int getLoanNumber(){
         return loanNumber;
