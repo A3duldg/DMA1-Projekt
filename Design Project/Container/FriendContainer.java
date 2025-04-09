@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * @author (dit navn her)
  * @version (versions nummer eller dato her)
  */
-public class FriendModel
+public class FriendContainer
 {
     private ArrayList<Friend> friends;
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
@@ -17,7 +17,7 @@ public class FriendModel
     /**
      * Konstruktør for objekter af klassen FriendContainer
      */
-    public FriendModel()
+    public FriendContainer()
     {
         // initialiser instansvariable
         friends = new ArrayList<>();
