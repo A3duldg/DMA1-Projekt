@@ -22,7 +22,5 @@ public class LoanController
     public LoanController(){
         
     }
-    public void addCopyToLoan(){
-        
-    }
+    public void 
 }
