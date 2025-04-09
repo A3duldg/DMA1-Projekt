@@ -29,5 +29,11 @@ public class Copy
     public int getSerialNumber(){
         return serialNumber;
     }
+    public String getPurchaseDate() {
+        return purchaseDate;
+    }
+    public int getPurchasePrice() {
+        return purchasePrice;
+    }
     }
 
