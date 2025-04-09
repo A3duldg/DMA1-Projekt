@@ -1,6 +1,7 @@
 package Controller;
 
 import model.LoanContainer;
+import model.Loan;
 
 /**
  * Lav en beskrivelse af klassen LoanCtrl her.
@@ -12,13 +13,14 @@ public class LoanController
 {
     private LoanContainer loanContainer;
     private FriendController friendController;
-
+    private LPController LPController;
+    private Loan loan;
+    
     /**
      * Konstruktør for objekter af klassen LoanCtrl
      */
-    public LoanController()
-    {
+    public LoanController(){
         
     }
-
+    public void 
 }
