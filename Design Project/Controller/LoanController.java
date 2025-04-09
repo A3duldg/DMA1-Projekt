@@ -22,7 +22,20 @@ public class LoanController
     public LoanController(){
         
     }
-    public void addCopyToLoan(){
+    
+    public void addCopyToLoan(Copy c){
+        
+    }
+    
+    public void addToLoan(Loan l){
+        
+    }
+    
+    public void setStatus(){
+        
+    }
+    
+    public void setBorrowedDate(){
         
     }
 }
