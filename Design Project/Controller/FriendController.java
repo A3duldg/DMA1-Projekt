@@ -2,20 +2,20 @@ package Controller;
 
 
 /**
- * Lav en beskrivelse af klassen LPCtrl her.
+ * Lav en beskrivelse af klassen FriendCtrl her.
  * 
  * @author (dit navn her)
  * @version (versions nummer eller dato her)
  */
-public class LPCtrl
+public class FriendController
 {
     // instansvariabler - erstat eksemplet herunder med dine egne variabler
     private int x;
 
     /**
-     * Konstruktør for objekter af klassen LPCtrl
+     * Konstruktør for objekter af klassen FriendCtrl
      */
-    public LPCtrl()
+    public FriendController()
     {
         // initialiser instansvariable
         x = 0;
