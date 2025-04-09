@@ -14,6 +14,8 @@ public class Loan
     private String borrowedDate;
     private String returnDate;
     private boolean status;
+    private Copy copy;
+    private Friend friend;
     
 
     /**
