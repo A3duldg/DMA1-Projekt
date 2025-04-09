@@ -9,9 +9,9 @@ package model;
  */
 public class Loan
 {
-    // instansvariabler - erstat eksemplet herunder med dine egne variabler
+    
     private int loanNumber;
-    private String borrowDate;
+    private String borrowedDate;
     private String returnDate;
     private boolean status;
     
@@ -19,28 +19,35 @@ public class Loan
     /**
      * Konstruktør for objekter af klassen Loan
      */
-    public Loan(int loanNumber, String borrowDate, String returnDate, String status)
-    {
+    public Loan(int loanNumber, String borrowedDate, String returnDate, String status) {
         this.loanNumber = loanNumber;
-        this.borrowDate = borrowDate;
+        this.borrowedDate = borrowedDate;
         this.returnDate = returnDate;
     }
-    public int getLoanNumber(){
+    public int getLoanNumber() {
         return loanNumber;
     }
     
-    public String getBorrowDate(){
-        return borrowDate;
+    public String getBorrowedDate() {
+        return borrowedDate;
     }
     
-    public String getReturnDate(){
+    public String getReturnDate() {
         return returnDate;
     }
-    public void createloan(int loanNumber, String borrowDate){
+    public void createloan(int loanNumber, String borrowDate) {
         
     }
-    public String addFriendByPhone(String phone){
+    public String addFriendByPhone(String phone) {
         return phone;
     }
-    
-}
+    public void addToLoan(Loan l) {
+        
+    }
+    public void setStatus() { 
+        this.status = status;
+    }
+    public void setBorrowedDate() {
+        this.borrowedDate = borrowedDate;
+    }
+}    

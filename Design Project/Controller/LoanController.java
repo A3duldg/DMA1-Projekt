@@ -19,23 +19,23 @@ public class LoanController
     /**
      * Konstruktør for objekter af klassen LoanCtrl
      */
-    public LoanController(){
+    public LoanController() {
         
     }
     
-    public void addCopyToLoan(Copy c){
+    public void addCopyToLoan(Copy c) {
         
     }
     
-    public void addToLoan(Loan l){
+    public void addToLoan(Loan l) {
         
     }
     
-    public void setStatus(){
+    public void setStatus() {
         
     }
     
-    public void setBorrowedDate(){
+    public void setBorrowedDate() {
         
     }
 }
