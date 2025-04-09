@@ -43,6 +43,9 @@ public class LP
         return barcode;
     }
     
+    public String publicationDate() {
+        return publicationDate;
+    }
 
     /**
      * Et eksempel på en metode - erstat denne kommentar med din egen
